@@ -1,7 +1,7 @@
 import { useState } from "react";
-
 import { MenuMovil } from "./components/MenuMovil";
 import { Sidebar } from "./components/Sidebar";
+import { MenuOrder } from "./components/MenuOrder";
 
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
 
   return (
     <div className="bg-stone-400 w-full min-h-screen">
-      <Sidebar  />
+      <Sidebar/>
       <MenuMovil/>
+      <MenuOrder />
     </div>
   );
 }
